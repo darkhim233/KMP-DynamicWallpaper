@@ -1,7 +1,12 @@
-````markdown
 # KMP-DynamicWallpaper
 
 基于向量叠加算法编写的 MD3 抽象风格壁纸生成组件，纯 CommonMain 实现。
+
+## 预览
+
+| | | |
+|---|---|---|
+| ![预览图1](预览图1.png) | ![预览图2](预览图2.png) | ![预览图3](预览图3.png) |
 
 ## 使用方法
 
@@ -54,4 +59,3 @@ Box(modifier = Modifier.fillMaxSize()) {
 | `modifier` | `Modifier` | `Modifier` | 标准 Compose 修饰符 |
 | `blurSize` | `Dp` | `12.dp` | 整体模糊强度，值越小轮廓越清晰 |
 | `onControllerReady` | `(DynamicWallpaper) -> Unit` | `{}` | 控制器回调，用于调用 `randomize()` 重新构图 |
-````
